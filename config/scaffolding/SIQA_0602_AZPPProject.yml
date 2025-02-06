@@ -11,30 +11,14 @@ packages:
   wpmServer: https://packages.webmethods.io
   wpmRegistry: licensed
 services:
-- serviceName: project.siqa_0602_azpp.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections:Database_test
-  packages:
-  - name: SIQA_0602_AZPPProject
-    version: "1.0"
-- serviceName: project.siqa_0602_azpp.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.operations.actions:DBInsert
-  packages:
-  - name: SIQA_0602_AZPPProject
-    version: "1.0"
 - serviceName: project.siqa_0602_azpp.integrations:SIQAAdapterFlow
   packages:
   - name: SIQA_0602_AZPPProject
     version: "1.0"
-- serviceName: project.siqa_0602_azpp.integrations:Sum
+- serviceName: project.siqa_0602_azpp.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.operations.actions:test
   packages:
   - name: SIQA_0602_AZPPProject
     version: "1.0"
-- serviceName: pub.math:addInts
-  packages:
-  - name: WmPublic
-    version: 11.1.0.0.1
-- serviceName: pub.flow:debugLog
-  packages:
-  - name: WmPublic
-    version: 11.1.0.0.1
 configurationVariables:
   ? artConnection.SIQA_0602_AZPPProject.project.siqa_0602_azpp.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_test.connectionSettings.otherProperties
   : loginTimeout=60;driverType=thin;
