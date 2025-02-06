@@ -10,17 +10,18 @@
   <record name="requires" javaclass="com.wm.util.Values">
     <value name="TPP_services_in_FCS">1.0</value>
     <value name="SSL_JDBC_Test">1.0</value>
+    <value name="JMSTest">1.0</value>
   </record>
   <null name="listACL"/>
   <value name="webappLoad">yes</value>
   <value name="reloadWithDependentPackage">yes</value>
-  <value name="build">16</value>
+  <value name="build">17</value>
   <null name="description"/>
   <value name="created_date">06-02-2025 11:42:04 GMT</value>
   <null name="extendedProperties"/>
   <null name="target_server_version"/>
   <value name="isProjectPackage">true</value>
-  <value name="lastUpdated">2025-02-06T12:02:31.342848278Z</value>
+  <value name="lastUpdated">2025-02-06T12:02:43.166544407Z</value>
   <value name="wmProjectId">fl6b3d733aab167def282475</value>
   <value name="creator">siqadeveloper siqadeveloper</value>
 </Values>
